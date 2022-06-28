@@ -5,7 +5,6 @@ import { Contact } from "../Contact";
 import Footer from "../Footer";
 import Project from "../Project";
 import Resume from "../Resume";
-import { Menu } from "antd";
 // import '../../../node_modules/antd/dist/antd.css'
 
 export default function Header() {
