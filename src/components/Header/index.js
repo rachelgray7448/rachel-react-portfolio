@@ -19,10 +19,14 @@ export default function Header() {
         if (currentPage === "Resume") {
             return <Resume />;
         }
-        return <Contact />;
+        if (currentPage === "Contact") {
+            return <Contact />;
+        }
+
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
+    
     return (
         <div>
             <Navigation
