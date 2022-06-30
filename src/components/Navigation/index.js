@@ -11,7 +11,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#about">About</Nav.Link>
+                        <Nav.Link onClick={()=>handlePageChange("About")}>About</Nav.Link>
                         <NavDropdown title="Projects" id="basic-nav-dropdown">
                             <NavDropdown.Item target="blank" href="https://limitless-journey-42984.herokuapp.com/">
                                 The B Word
@@ -31,11 +31,12 @@ function Navigation({ currentPage, handlePageChange }) {
                             <NavDropdown.Item target="blank" href="https://rachelgray7448.github.io/weather-dashboard/">
                                 Weather Dashboard
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#project">
+                            <NavDropdown.Item onClick={()=>handlePageChange("Project")}>
                                 View All
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Nav.Link onClick={()=>handlePageChange("Resume")}>Experience</Nav.Link>
+                        <Nav.Link onClick={()=>handlePageChange("Contact")}>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
