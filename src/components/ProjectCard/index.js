@@ -1,13 +1,13 @@
 import React from "react";
 
 
-export default function ProjectCard({ title, picture }) {
+export default function ProjectCard({ title, src }) {
 
 
     return (
         <div id="project">
             {title}
-            <img></img>
+            <img className="project-thumbnail" src={src} />
         </div>
     );
 }

@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.roundedCircle {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.project-thumbnail {
+    width: 400px;
+    border-radius: 10%
+}

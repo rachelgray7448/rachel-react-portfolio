@@ -20,8 +20,8 @@ export default function Project() {
 
     return (
         <div>
-            {projects.map((project) => (
-                <ProjectCard title={project.title} src={project.src} />
+            {projects.map((project, index) => (
+                <ProjectCard title={project.title} src={project.src} key={index} />
             ))}
         </div>
     );
