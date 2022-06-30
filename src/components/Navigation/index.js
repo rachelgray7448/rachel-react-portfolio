@@ -31,6 +31,9 @@ function Navigation({ currentPage, handlePageChange }) {
                             <NavDropdown.Item target="blank" href="https://rachelgray7448.github.io/weather-dashboard/">
                                 Weather Dashboard
                             </NavDropdown.Item>
+                            <NavDropdown.Item href="#project">
+                                View All
+                            </NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav>

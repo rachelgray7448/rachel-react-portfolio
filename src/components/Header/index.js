@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Navigation from "../Navigation";
 import About from "../About";
 import { Contact } from "../Contact";
-import Footer from "../Footer";
 import Project from "../Project";
 import Resume from "../Resume";
 

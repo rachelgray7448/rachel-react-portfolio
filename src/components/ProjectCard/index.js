@@ -1,5 +1,13 @@
 import React from "react";
 
-export default function ProjectCard({ title }) {
-    return <div>{title}</div>;
+
+export default function ProjectCard({ title, picture }) {
+
+
+    return (
+        <div id="project">
+            {title}
+            <img></img>
+        </div>
+    );
 }
