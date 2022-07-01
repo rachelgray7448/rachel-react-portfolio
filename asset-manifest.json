@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rachel-react-portfolio/static/css/main.008e9963.css",
+    "main.js": "/rachel-react-portfolio/static/js/main.54331387.js",
+    "static/js/787.585b9864.chunk.js": "/rachel-react-portfolio/static/js/787.585b9864.chunk.js",
+    "static/media/FoodFestival.png": "/rachel-react-portfolio/static/media/FoodFestival.1cea758a57bae24a553a.png",
+    "static/media/RunBuddy.png": "/rachel-react-portfolio/static/media/RunBuddy.4449e5837a34df749faa.png",
+    "static/media/ThBWord.png": "/rachel-react-portfolio/static/media/ThBWord.21b17fc05cd0974df8e0.png",
+    "static/media/Swanson.png": "/rachel-react-portfolio/static/media/Swanson.d1ad3f482b2d33a85832.png",
+    "static/media/Weather.png": "/rachel-react-portfolio/static/media/Weather.0f907eec0f8c8990c246.png",
+    "static/media/Taskinator.png": "/rachel-react-portfolio/static/media/Taskinator.526d6b83058f3027df01.png",
+    "static/media/Headshot.jpg": "/rachel-react-portfolio/static/media/Headshot.cae9201660e692374b28.jpg",
+    "static/media/resume.pdf": "/rachel-react-portfolio/static/media/resume.e89974faf4374de98b95.pdf",
+    "index.html": "/rachel-react-portfolio/index.html",
+    "main.008e9963.css.map": "/rachel-react-portfolio/static/css/main.008e9963.css.map",
+    "main.54331387.js.map": "/rachel-react-portfolio/static/js/main.54331387.js.map",
+    "787.585b9864.chunk.js.map": "/rachel-react-portfolio/static/js/787.585b9864.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.008e9963.css",
+    "static/js/main.54331387.js"
+  ]
+}
