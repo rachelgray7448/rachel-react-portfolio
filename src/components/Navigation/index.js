@@ -5,14 +5,14 @@ import { Container, NavDropdown, Nav } from "react-bootstrap"
 function Navigation({ currentPage, handlePageChange }) {
 
     return (
-        <Navbar bg="light" expand="lg">
-            <Container>
-                <Navbar.Brand href="#home">Rachel Gray</Navbar.Brand>
+        <Navbar className="navbar" expand="lg">
+            <Container className="navbar-internal">
+                <Navbar.Brand className="super-internal" href="#home">Rachel Gray</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Collapse className="super-internal" id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link onClick={()=>handlePageChange("About")}>About</Nav.Link>
-                        <NavDropdown title="Projects" id="basic-nav-dropdown">
+                        <Nav.Link className="super-internal" onClick={()=>handlePageChange("About")}>About</Nav.Link>
+                        <NavDropdown className="super-internal" title="Projects" id="basic-nav-dropdown">
                             <NavDropdown.Item target="blank" href="https://limitless-journey-42984.herokuapp.com/">
                                 The B Word
                             </NavDropdown.Item>
@@ -35,8 +35,8 @@ function Navigation({ currentPage, handlePageChange }) {
                                 View All
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link onClick={()=>handlePageChange("Resume")}>Experience</Nav.Link>
-                        <Nav.Link onClick={()=>handlePageChange("Contact")}>Contact</Nav.Link>
+                        <Nav.Link className="super-internal" onClick={()=>handlePageChange("Resume")}>Experience</Nav.Link>
+                        <Nav.Link className="super-internal" onClick={()=>handlePageChange("Contact")}>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

@@ -40,6 +40,8 @@
 .roundedCircle {
     width: 200px;
     border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .project-thumbnail {
@@ -53,6 +55,7 @@
 }
 
 .footer {
+    background-color: #151E3F;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -76,6 +79,16 @@
     /* grid-template-columns: 1fr 1fr; */
     gap: 2rem;
     justify-content: space-around;
+    color: black;
+}
+
+.navbar, .navbar-internal, .super-internal {
+    background-color: #DC9E82;
+}
+
+.mainpage {
+    background-color: #151E3F;
+    color: #F2F3D9;
 }
 
 
