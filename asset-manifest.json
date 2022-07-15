@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/rachel-react-portfolio/static/css/main.008e9963.css",
-    "main.js": "/rachel-react-portfolio/static/js/main.54331387.js",
+    "main.js": "/rachel-react-portfolio/static/js/main.752a8313.js",
     "static/js/787.585b9864.chunk.js": "/rachel-react-portfolio/static/js/787.585b9864.chunk.js",
+    "static/media/Dino.png": "/rachel-react-portfolio/static/media/Dino.afe09009b60af0f31296.png",
     "static/media/FoodFestival.png": "/rachel-react-portfolio/static/media/FoodFestival.1cea758a57bae24a553a.png",
     "static/media/RunBuddy.png": "/rachel-react-portfolio/static/media/RunBuddy.4449e5837a34df749faa.png",
     "static/media/ThBWord.png": "/rachel-react-portfolio/static/media/ThBWord.21b17fc05cd0974df8e0.png",
@@ -13,11 +14,11 @@
     "static/media/resume.pdf": "/rachel-react-portfolio/static/media/resume.e89974faf4374de98b95.pdf",
     "index.html": "/rachel-react-portfolio/index.html",
     "main.008e9963.css.map": "/rachel-react-portfolio/static/css/main.008e9963.css.map",
-    "main.54331387.js.map": "/rachel-react-portfolio/static/js/main.54331387.js.map",
+    "main.752a8313.js.map": "/rachel-react-portfolio/static/js/main.752a8313.js.map",
     "787.585b9864.chunk.js.map": "/rachel-react-portfolio/static/js/787.585b9864.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.008e9963.css",
-    "static/js/main.54331387.js"
+    "static/js/main.752a8313.js"
   ]
 }
