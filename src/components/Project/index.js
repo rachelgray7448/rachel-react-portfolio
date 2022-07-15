@@ -6,6 +6,7 @@ import swanson from "../../assets/Swanson.png";
 import taskinator from "../../assets/Taskinator.png";
 import thebword from "../../assets/ThBWord.png";
 import weather from "../../assets/Weather.png";
+import dino from "../../assets/Dino.png";
 
 export default function Project() {
 
@@ -16,6 +17,7 @@ export default function Project() {
         { title: "Swanson Quote Quiz", src: swanson, link: "https://rachelgray7448.github.io/swanson-quote-quiz/" },
         { title: "Weather Dashboard", src: weather, link: "https://rachelgray7448.github.io/weather-dashboard/" },
         { title: "Taskinator", src: taskinator, link: "https://rachelgray7448.github.io/taskinator/" },
+        { title: "DDAA", src: dino, link: "https://delusionaldinos.herokuapp.com/"}
     ];
 
     return (
